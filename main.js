@@ -4,19 +4,19 @@ function convert(number) {
   let arr = [1];
 
   for(let i = 1; i <= 30; i++) {
-    arr.push(arr[arr.length - 1]*2);
+    arr.push(arr[arr.length - 1] * 2);
   }
 
   arr.reverse();
 
-  if(number == 0) return 0;
+  if(number == 0) return '0';
 
   const index = arr.findIndex(el => {
     return el <= number;
   })
 
   arr.splice(0, index);
-  
+
   let sum = 0;
   
   for(let i = 0; i < arr.length; i++) {
@@ -32,8 +32,5 @@ function convert(number) {
   base_2 = base_2.join("");
   return base_2;
 }
-
-// console.log(Number(168).toString(2));
-// console.log(convert(168));
 
 module.exports = convert;
