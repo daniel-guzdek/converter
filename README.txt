@@ -1,0 +1,1 @@
+# Program written in JavaScript that returns a base-2 (binary) representation of a base-10 (decimal) number.

@@ -1,0 +1,14 @@
+{
+  "name": "converter_base-10_to_base-2",
+  "version": "1.0.0",
+  "description": "Program that returns a base-2 (binary) representation of a base-10 (decimal) number.",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel L. Guzdek",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
